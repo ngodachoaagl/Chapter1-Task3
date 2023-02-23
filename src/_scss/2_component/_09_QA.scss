@@ -1,0 +1,104 @@
+.c-QA__content {
+    padding: 77px 95px 61px 85px;
+    text-align: center;
+    @include tab {
+        padding: 40px 20px 15px 10px;
+    }
+    @include sp {
+        padding: 33px 15px 13px;
+    }
+
+    .c-QA__title {
+        color: #176b6a;
+        font-size: 3.6rem;
+        font-weight: 400;
+        letter-spacing: 4px;
+        margin-bottom: 42px;
+        transform: translate(4px, -1px);
+        @include sp {
+            font-size: 2rem;
+            letter-spacing: 2px;
+            margin-bottom: 21px;
+            transform: translate(0);
+        }
+    }
+
+    .c-box {
+        text-align: left;
+
+        .c-box__item {
+            margin-bottom: 47px;
+
+            @include sp {
+                margin-bottom: 26px;
+            }
+
+            .c-box__topContent {
+                flex-wrap: nowrap;
+                align-items: center;
+
+                margin-bottom: 5px;
+                @include sp {
+                    margin-bottom: 0;
+                }
+
+                .c-box__topImg {
+                    margin-right: 14px;
+                    @include sp {
+                        width: 13%;
+                        margin-right: 9px;
+                    }
+                }
+
+                .c-box__topText {
+                    text-align: left;
+                    padding-top: 12px;
+                    @include sp {
+                        padding-top: 0;
+                    }
+
+                    .c-box__title {
+                        font-size: 1.4rem;
+                        font-weight: 400;
+                        letter-spacing: 1.4px;
+                        @include sp {
+                            letter-spacing: 1.3px;
+                            font-size: 1.3rem;
+                            margin-left: -1px;
+                            margin-bottom: 0;
+                            line-height: 1.64;
+                        }
+                    }
+                }
+            }
+
+            .c-box__botContent {
+                @include sp {
+                    margin-top: 5px;
+                }
+
+                .c-box__botDesc {
+                    font-size: 1.4rem;
+                    font-weight: 400;
+                    color: #333;
+                    letter-spacing: 1.4px;
+                    transform: translateY(1px);
+                    @include sp {
+                        margin-top: -1px;
+                        font-size: 1.3rem;
+                        line-height: 1.7;
+                        letter-spacing: 1.3px;
+                    }
+                }
+            }
+        }
+        @include sp {
+            .c-box__item:not(:first-of-type) {
+                .c-box__botDesc {
+                    transform: translateY(6px);
+                }
+            }
+        }
+       
+    }
+}

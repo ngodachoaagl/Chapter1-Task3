@@ -1,0 +1,161 @@
+.c-mainvisual {
+    padding: 100px 15px 75px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    color: #000;
+    @include tab {
+        padding: 45px 15px 40px;
+    }
+    @include sp {
+        padding: 0 15px;
+    }
+
+    .c-mainvisual__content {
+        position: relative;
+     
+    }
+
+    .c-mainvisual__img {
+        .c-mainvisual__img--pc {
+            min-width: 700px;
+
+            @include sp {
+                display: none;
+            }
+        }
+
+        .c-mainvisual__img--sp {
+            display: none;
+            @include sp {
+                display: block;
+            }
+        }
+    }
+
+    .c-mainvisual__description {
+        position: absolute;
+        top: 53.4%;
+        left: 15.4%;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        transform: translateY(-50%);
+        @include tab {
+            top: 49%;
+        }
+        @include sp {
+            top: 19.9%;
+            left: 50.3%;
+            transform: translateX(-50%);
+            width: 100%;
+            
+        }
+
+        .c-mainvisual__caption1 {
+            font-size: 2.6rem;
+            letter-spacing: 2.5px;
+            @include tab {
+                font-size: 2rem;
+                letter-spacing: 2px;
+                margin-bottom: 7px;
+            }
+        }
+
+        .c-mainvisual__title1 {
+            display: none;
+        }
+
+        .c-mainvisual__textImg {
+            transform: translate(0, -1px);
+            margin-bottom: 10.5%;
+            @include tab {
+                width: 46%;
+                margin-bottom: 35px;
+            }
+        }
+
+        .u-bar {
+            position: relative;
+            transform: translate(-32px, -21px);
+            @include sp {
+                transform: translate(-32px, -20px);
+            }
+
+            &::before {
+                width: 60px !important;
+                @include tab {
+                    width: 43px !important;
+                    top: 4px;
+                    left: 10px;
+                }
+            }
+        }
+
+        p:is(.c-mainvisual__caption2, .c-mainvisual__caption3) {
+            font-size: 1.6rem;
+            @include tab {
+                font-size: 1.5rem;
+            }
+        }
+
+        .c-mainvisual__caption2 {
+            margin-bottom: 8.8%;
+            transform: translateY(-1px);
+            letter-spacing: 1.5px;
+
+            @include tab {
+                transform: translate(0);
+                margin-bottom: 19px;
+            }
+        }
+
+        .c-mainvisual__caption3 {
+            letter-spacing: 1.6px;
+            font-weight: 400;
+            @include tab {
+                letter-spacing: 0.1px;
+                padding: 0 15px;
+            }
+        }
+
+        .c-mainvisual__title2 {
+            font-size: 3rem;
+            letter-spacing: 3px;
+            margin-bottom: 6.2%;
+            font-weight: 400;
+            transform: translateY(1px);
+
+            @include sp {
+                font-size: 2rem;
+                letter-spacing: 0.2px;
+                margin-bottom: 24px;
+            }
+        }
+
+        .c-mainvisual__btn {
+            width: 306px;
+            height: 55px;
+            transform: translate(2px, 1px);
+            @include tab {
+                width: 201px;
+                height: 35px;
+
+                transform: translate(0, 0.8px);
+            }
+
+            .c-mainvisual__btnText {
+                transform: translate(9px, 0);
+                font-size: 2.4rem;
+                letter-spacing: 6.75px;
+                line-height: 2.6;
+                @include tab {
+                    font-size: 1.6rem;
+                    letter-spacing: 4.5px;
+                    transform: translate(7px, 0);
+                }
+            }
+        }
+    }
+}

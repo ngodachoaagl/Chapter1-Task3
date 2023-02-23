@@ -1,0 +1,188 @@
+.c-animation {
+    .c-leaves {
+        pointer-events: none;
+        @include lg {
+            width: 20%;
+        }
+        @include sp {
+            width: 30%;
+        }
+
+        & > * {
+            position: fixed;
+            z-index: 9;
+        }
+
+        .c-leaves__top {
+            top: 0;
+            left: 35.8%;
+            @include sp {
+                left: 25.5%;
+            }
+        }
+
+        .c-leaves__right {
+            right: 0;
+            top: 39.8%;
+            @include lg {
+                width: 15%;
+            }
+            @include sp {
+                width: 23.9%;
+                top: 56.2%;
+            }
+        }
+    }
+
+  
+}
+
+.c-snow {
+    pointer-events: none;
+    @include sp {
+        display: none;
+    }
+
+    &>* {
+        position: absolute;
+        z-index: 9;
+    }
+
+    @each $itemNum,
+        $top,
+        $left in (1, 8.8%, 27.9%),
+        (2, 4.7%, 57.5%),
+        (3, 12.6%, 82.8%),
+        (4, 64%, 15.3%),
+        (5, 80.8%, 28.6%),
+        (6, 79.1%, 71.4%) {
+        .c-snowItem--#{$itemNum} {
+            top: $top;
+            left: $left;
+
+            @include tab {
+
+                width: 7%;
+
+            }
+        }
+    }
+
+ 
+}
+//------snow
+.snowShake {
+    animation-name: snowShake;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+.snowFadeOut {
+    animation-name: snowfadeOut;
+    animation-duration: 0.7s;
+    animation-delay: 0.4s;
+    animation-fill-mode: both;
+    animation-iteration-count: unset !important;
+}
+
+.snowFadeIn {
+    animation-name: snowfadeIn;
+    animation-duration: 0.7s;
+    animation-delay: 0.4s;
+    animation-fill-mode: both;
+    animation-iteration-count: unset !important;
+}
+
+@keyframes snowfadeOut {
+    0% {
+        transform: translateY(0);
+    }
+
+    100% {
+        transform: translateY(-1000px);
+        visibility: hidden;
+    }
+}
+@keyframes snowfadeIn {
+    0% {
+        transform: translateY(-1000px);
+    }
+
+    100% {
+        transform: translateY(0);
+        visibility: unset;
+    }
+}
+@keyframes snowShake {
+    0% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(10px);
+    }
+
+    100% {
+        transform: translateY(0);
+    }
+}
+
+//////-----------------------------leaves--------------------------------
+.c-leaves {
+    animation-duration: 0.7s;
+    animation-delay: 0.7s;
+    animation-fill-mode: both;
+}
+
+.leavesTopFadeOut {
+    animation-name: leavesTopFadeOut;
+}
+
+.leavesRightFadeOut {
+    animation-name: leavesRightFadeOut;
+}
+
+.leavesTopFadeIn {
+    animation-name: leavesTopFadeIn;
+}
+
+.leavesRightFadeIn {
+    animation-name: leavesRightFadeIn;
+}
+@keyframes leavesTopFadeIn {
+    0% {
+        transform: translateY(-50px);
+    }
+
+    100% {
+        transform: translateY(0);
+    }
+}
+@keyframes leavesRightFadeIn {
+    0% {
+        transform: translateX(50px);
+    }
+
+    100% {
+        transform: translateX(0);
+    }
+}
+
+@keyframes leavesTopFadeOut {
+    0% {
+        transform: translateY(0);
+    }
+
+    100% {
+        transform: translateY(-50px);
+    }
+}
+@keyframes leavesRightFadeOut {
+    0% {
+        transform: translateX(0);
+    }
+
+    100% {
+        transform: translateX(50px);
+    }
+}

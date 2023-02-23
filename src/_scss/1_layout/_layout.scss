@@ -1,0 +1,80 @@
+/* layout
+------------------------------------------------------------*/
+body {
+    font-family: $main-fonts;
+    font-size: 1.4rem;
+    line-height: 1.5;
+
+    
+}
+
+footer,
+section {
+   
+    margin: 0 auto;
+   
+}
+
+
+
+//-------------------------------------------------------
+
+
+//-------------------------------------------------------
+
+
+
+.container--yellow {
+  
+    background-image: url(/assets/img/Point/point-background.jpg);
+    background-position: center;
+    background-repeat: repeat;
+ 
+}
+
+.l-container {
+    max-width: 1060px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.l-container--fluid {
+    overflow: hidden;
+    max-width: 1100px;
+    margin: 0 auto;
+    padding-left: 1.87%;
+    padding-right: 1.87%;
+    @include sp {
+        padding-left: 0;
+        padding-right: 0;
+    }
+}
+
+.l-container--1100 {
+    overflow: hidden;
+    max-width: 1170px;
+    margin: 0 auto;
+    padding-left: 1.87%;
+    padding-right: 1.87%;
+    @include sp {
+        padding-left: 0;
+        padding-right: 0;
+    }
+}
+
+
+.pc--only {
+    @include sp {
+        display: none !important;
+    }
+}
+
+.sp--only {
+    display: none !important;
+    @include sp {
+        display: block !important;
+    }
+}
+
+//-------------------------------------------------------
+

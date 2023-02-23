@@ -1,0 +1,42 @@
+<header class="c-nav">
+  <div class="c-nav--pc">
+    <ul class="c-nav__content">
+      <% if(typeof navlists !='undefined' ){ %>
+        <% navlists.main.forEach(item=>{%>
+          <li class="c-nav__item">
+         
+              <a href="#<%= item.url %> ">
+                <%= item.title %>
+              </a>
+          
+
+          </li>
+          <%})%>
+            <% }%>
+
+    </ul>
+  </div>
+  <div class="c-nav--tablet">
+
+    <img id="c-navtabToggle" class="c-nav--tabletIcon" src="/assets/img/Nav/spIcon.png" alt="navIcon">
+   
+    <div id="c-navtabMenu" class="c-nav--tabletMenu">
+<div class="c-navLeaves">
+  <img class="c-navLeavesTop" src="/assets/img/Nav/fixed-top.png" alt="fixed-top">
+  <img class="c-navLeavesBottom" src="/assets/img/Nav/fixed-bottom.png" alt="fixed-bottom">
+</div>
+      <div class="c-navtabMenu__content">
+        <ul class="c-navtabMenu__ul">
+          <% if(typeof navlists !='undefined' ){ %>
+            <% navlists.main.forEach(item=>{%>
+              <li class="c-navtabMenu__li"><a class="c-navtabMenu__link" href="#<%= item.url %>">
+                  <%= item.title %>
+                </a></li>
+              <%})%>
+                <% }%>
+
+        </ul>
+      </div>
+    </div>
+  </div>
+</header>

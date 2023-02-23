@@ -1,0 +1,11 @@
+.c-recommened {
+    display: inline-block;
+    position: absolute;
+
+    &::before {
+        content: url(/assets/img/Case/recommened.png);
+        @include sp {
+            content: url(/assets/img/Case/recommenedSP.png);
+        }
+    }
+}

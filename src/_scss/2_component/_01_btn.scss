@@ -1,0 +1,16 @@
+/*------------------------------------------------------------
+btn
+------------------------------------------------------------*/
+
+/*
+------------------------------------------------------------*/
+.c-btnRounded {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 28px;
+    color: $color-white-1;
+    @include sp {
+        border-radius: 18px;
+    }
+}

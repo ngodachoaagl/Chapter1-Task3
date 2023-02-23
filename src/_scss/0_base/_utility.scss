@@ -1,0 +1,41 @@
+
+.u-bar {
+    position: relative;
+    display: inline-block;
+ 
+
+    &::before {
+        content: "";
+        position: absolute;
+
+        height: 2px;
+        background-color: #000;
+        top: 0;
+        left: 0;
+        width: 0;
+        @include sp {
+            height: 1px;
+        }
+    }
+}
+
+.u-btnGreen1 {
+    background-color: $color-green-1;
+}
+
+.u-opacity1 {
+    opacity: 1 !important;
+    visibility: unset !important;
+}
+
+.u-contentStart {
+    @include sp {
+        justify-content: start;
+    }
+}
+
+.u-contentEnd {
+    @include sp {
+        justify-content: end;
+    }
+}

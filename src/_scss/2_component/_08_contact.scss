@@ -1,0 +1,54 @@
+.c-contact {
+    text-align: center;
+    margin-top: 4px;
+    padding-bottom: 106px;
+    @include tab {
+        padding-bottom: 60px;
+    }
+    @include sp {
+        margin-top: 0;
+        padding-left: 15px;
+        padding-right: 15px;
+        padding-bottom: 55px;
+    }
+
+    .c-contact__title {
+        color: #176b6a;
+        font-size: 3rem;
+        font-weight: 400;
+        letter-spacing: 3px;
+        margin-bottom: 41px;
+        @include tab {
+            font-size: 2.4rem;
+        }
+        @include sp {
+            font-size: 1.8rem;
+            letter-spacing: 1.6px;
+            width: 100%;
+            line-height: 1.63;
+            margin-bottom: 23px;
+            margin-top: -8px;
+        }
+    }
+
+    .c-contact__caption {
+        margin-top: 47px;
+        font-size: 1.2rem;
+        font-weight: 400;
+        letter-spacing: 1.4px;
+        color: #333;
+        transform: translateY(-1px);
+        @include sp {
+            margin-top: -5px;
+            font-size: 1.3rem;
+            color: #000;
+            letter-spacing: 1.3px;
+            line-height: 1.7;
+            transform: translate(1px, 0);
+        }
+    }
+
+   
+  
+}
+

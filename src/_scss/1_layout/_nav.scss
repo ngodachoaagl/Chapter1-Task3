@@ -1,0 +1,128 @@
+/* Nav
+------------------------------------------------------------*/
+
+.c-nav {
+    position: fixed;
+    top: 5.5%;
+    left: 0;
+    z-index: 9;
+    height: fit-content;
+    @include tab {
+        top: 0;
+    }
+
+    .c-nav--pc {
+        @include tab {
+            display: none;
+        }
+
+        .c-nav__content {
+            .c-nav__item {
+                width: 198px;
+                height: 40px;
+                background-image: url(/assets/img/Nav/label.png);
+                margin-bottom: 15px;
+                display: flex;
+                align-items: center;
+
+                
+
+                a {
+                    width: calc(100% - 20px);
+                    display: inline-block;
+                    letter-spacing: 1.1px;
+                    margin-left: 20px;
+                    font-size: 1.6rem;
+                    line-height: 2.6;
+                    color: $color-white-1;
+                }
+                
+            }
+        }
+    }
+
+    .c-nav--tablet {
+        padding: 15px;
+        display: none;
+        position: relative;
+        @include tab {
+            display: block;
+        }
+
+        .c-nav--tabletIcon {
+            z-index: 99;
+            width: 45px;
+            position: relative;
+            cursor: pointer;
+            transition: all 0.2s;
+
+            &:hover {
+                opacity: 0.7;
+            }
+
+          
+
+            &.is-clicked {
+                opacity: 1;
+            }
+        }
+
+        .c-nav--tabletMenu {
+            display: none;
+            position: fixed;
+            top: 0;
+            left: 0;
+            bottom: 0;
+            right: 0;
+          
+            background-color: #1f4242;
+            background-position: top;
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+
+      
+
+        .c-navtabMenu__content {
+            padding: 75px 20px;
+            text-align: center;
+            overflow-y: auto;
+            height: 100%;
+
+            .c-navtabMenu__ul {
+                .c-navtabMenu__li {
+                    border-bottom: 1px solid #3a5656;
+                    line-height: 4;
+
+                    .c-navtabMenu__link {
+                        font-size: 2rem;
+                        color: $color-white-1;
+                        z-index: 10;
+                        position: relative;
+                        letter-spacing: 2px;
+                    }
+                  
+                }
+            }
+        }
+    }
+}
+
+.c-navLeavesTop {
+    position: absolute;
+    width: 160px;
+    top: 0;
+    left: 0;
+    pointer-events: none;
+}
+
+.c-navLeavesBottom {
+    position: absolute;
+    width: 160px;
+    top: 53.5%;
+    right: 0;
+    pointer-events: none;
+}
+
+/* Main menu
+------------------------------------------------------------*/

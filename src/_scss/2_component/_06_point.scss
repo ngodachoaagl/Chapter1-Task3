@@ -1,0 +1,343 @@
+#point {
+    margin-top: -46px;
+}
+
+.c-point {
+    color: #000;
+    padding-top: 90px;
+    @include tab {
+        padding-top: 45px;
+    }
+    @include sp {
+        padding-top: 28px;
+        padding-left: 2.87%;
+        padding-right: 2.87%;
+    }
+
+    .c-box {
+        .c-box__item {
+            @include tab {
+                margin-bottom: 60px;
+            }
+            @include sp {
+                margin-bottom: 40.5px;
+            }
+
+            .c-box__topContent {
+                width: 80%;
+                margin: 0 auto;
+                margin-bottom: 44px;
+                @include tab {
+                    width: 75%;
+                    margin: 0 auto;
+                    display: flex;
+                   
+                    flex-wrap: nowrap;
+                    flex-grow: 0;
+                }
+                @include sp {
+                    flex-wrap: wrap;
+                    width: 100%;
+                    margin: unset;
+                    justify-content: unset;
+                    align-items: center;
+                    margin-bottom: 20px;
+                }
+
+                .c-box__topImg {
+                    padding: 8px 18px;
+                    width: 15%;
+                    @include tab {
+                        width: unset;
+                    }
+                    @include sp {
+                        padding: 10px 14px 10px 5px;
+                        width: 24%;
+                    }
+
+                    .sp--only {
+                        padding-left: 9px;
+                    }
+
+                    .u-bar {
+                        display: block;
+                        margin-top: 20px;
+                        @include sp {
+                            margin-top: 10px;
+                        }
+
+                        &::before {
+                            width: 35px;
+                            left: 18%;
+                            @include sp {
+                                left: 20%;
+                            }
+                        }
+                    }
+
+                    .c-point__tag {
+                        margin-top: 28px;
+                        color: #000;
+                        font-size: 2.2rem;
+                        @include tab {
+                            font-size: 1.6rem;
+                        }
+                        @include sp {
+                            margin-top: 15px;
+                        }
+                    }
+                }
+
+                .c-box__topText {
+                    padding-left: 1px;
+                    padding-top: 4px;
+                    @include tab {
+                        width: unset;
+
+                        padding-left: 0;
+                    }
+
+                    .c-box__title {
+                        transform: translateY(-1px);
+                        font-weight: 400;
+                        font-size: 3.6rem;
+                        letter-spacing: 3.7px;
+                        @include tab {
+                            transform: translateY(0);
+                            font-size: 3rem;
+                        }
+                        @include sp {
+                            font-size: 2rem;
+                            letter-spacing: 1.8px;
+                            margin-bottom: 7px;
+                        }
+                    }
+                }
+
+                .c-box__desc.sp--only {
+                    @include sp {
+                        font-size: 1.3rem;
+                        margin-top: -5.6px;
+                        padding-left: 5px;
+                        letter-spacing: 1.3px;
+                        line-height: 1.63;
+                    }
+                }
+            }
+
+            .c-box__botContent {
+                display: flex;
+                gap: 20px;
+                flex-wrap: nowrap;
+                @include tab {
+                    flex-wrap: wrap;
+                  
+                    justify-content: center;
+                }
+                @include middle {
+                    padding: 0 35px;
+                  
+                }
+                @include sp {
+                    gap: 0;
+                }
+
+                .c-box__botItem {
+                    &:nth-of-type(2) {
+                        @include sp {
+                            margin-top: 20px;
+                            margin-bottom: 20px;
+                        }
+                    }
+                    @include sp {
+                        flex: 0 1 315px;
+                        border-radius: 15px;
+                    }
+
+                    .c-box__layout {
+                        position: relative;
+
+                        .c-box__btnMore {
+                            position: absolute;
+                            cursor: pointer;
+                            bottom: 19px;
+                            right: 20px;
+                            transition: all 0.5s;
+                            @include sp {
+                                bottom: 14px;
+                                right: 15px;
+                                width: 19.7%;
+                            }
+
+                            &:hover {
+                                opacity: 0.7;
+                            }
+                        }
+                    }
+
+                    .c-box__overlay {
+                        position: absolute;
+                        top: 0;
+                        left: 0;
+                        width: 100%;
+                        height: 100%;
+
+                        padding: 1vw;
+                        opacity: 0;
+                        visibility: hidden;
+                        transition: all 0.3s;
+                        @media screen and (min-width:1921px) {
+                            padding: 17px;
+                        }
+                        @include sp {
+                            padding: 15px;
+                        }
+
+                        .c-box__overlay--main {
+                            border-radius: 26px;
+                            background-color: rgba(255, 255, 255, 0.8);
+                        
+                            padding-left: 15.4%;
+                            padding-right: 15.4%;
+                            width: 100%;
+                            height: 100%;
+                            
+                            @media screen and (min-width:1921px) {
+                                padding-left: 35px;
+                                padding-right: 35px;
+                            }
+                            @include lg {
+                                padding-left: 10%;
+                                padding-right: 10%;                            }
+                            @include sp {
+                                border-radius: 13px;
+                                padding: 0 20px;
+                              
+                            }
+                        }
+
+                        .c-box__overlay--content {
+                            width: 100%;
+                            min-height: 100%;
+                            max-height: 100%;
+                            overflow-y: auto;
+                            display: flex;
+
+                            justify-content: center;
+                            align-items: center;
+                            flex-direction: column;
+                            text-align: center;
+                          
+                          
+                            @include sp {
+                             
+                               
+                            }
+
+                            .c-box__overlay--title {
+                                color: #176b6a;
+                                font-size: 2.4rem;
+                                letter-spacing: 2.5px;
+                                font-weight: 400;
+
+                                @include sp {
+                                    font-size: 1.6rem;
+                                    transform: translateY(2px);
+                                    letter-spacing: 1.6px;
+                                }
+                            }
+
+                            .u-bar {
+                                margin-top: 20px;
+                                margin-bottom: 15px;
+                                display: block;
+
+                                &::before {
+                                    width: 50px;
+                                    background-color: rgb(23, 107, 106);
+
+                                    left: -25px;
+                                    top: -8px;
+                                    @include sp {
+                                        left: -25px;
+                                        top: 1px;
+                                    }
+                                }
+                            }
+
+                            .c-box__overlay--desc {
+                                text-align: left;
+                                font-size: 1.2rem;
+                                letter-spacing: 1.4px;
+                                line-height: 1.7;
+                                margin-bottom: 35px;
+                                font-weight: 400;
+                                transform: translateY(-5px);
+
+                                @include sp {
+                                    font-size: 1.3rem;
+
+                                    transform: translateY(9px);
+                                }
+                            }
+
+                            .c-box__overlay--btn {
+                                display: block;
+                                width: 198px;
+                                height: 40px;
+                                background-image: url(/assets/img/Nav/label.png);
+                                color: #fff;
+                                font-size: 1.6rem;
+                                letter-spacing: 1.5px;
+                                line-height: 2.7;
+                                transform: translateY(-11px);
+                                @include sp {
+                                    font-size: 1.3rem;
+                                    height: 25px;
+                                    padding: 0.8px 7.5px;
+                                    width: unset;
+                                    line-height: 2.2;
+                                    transform: translate(0, -8px);
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .c-box__item:nth-of-type(3) {
+        .c-box__overlay--content {
+
+            @include sp {
+            
+            }
+        }
+    }
+    @include sp {
+        .c-box__item:nth-of-type(3) {
+            .c-box__botContent {
+                margin-top: -2px;
+                @include sp {
+                    margin-top: 0;
+                }
+            }
+        }
+    }
+}
+
+.c-column__banner--pc {
+    border-radius: 50px;
+}
+
+.c-column__banner--sp {
+    border-radius: 25px;
+}
+
+.c-column__img {
+    border-radius: 10px;
+    @include sp {
+        border-radius: 0;
+    }
+}

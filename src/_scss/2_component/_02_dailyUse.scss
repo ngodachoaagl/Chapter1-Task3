@@ -1,0 +1,12 @@
+.c-dailyUse {
+    display: inline-block;
+    position: absolute;
+
+    &::before {
+        content: url(/assets/img/Case/dailyuse.png);
+        @include sp {
+            content: url(/assets/img/Case/dailyuseSP.png);
+        }
+    }
+
+}

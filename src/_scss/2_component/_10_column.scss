@@ -1,0 +1,281 @@
+.c-column {
+    .c-column__main {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .c-column__banner {
+        position: relative;
+
+        .c-column__banner--img {
+            display: flex;
+            justify-content: center;
+            @include sp {
+                width: 251px;
+                margin: 0 auto;
+                min-width: 250px;
+            }
+        }
+
+        .c-column__banner--pc {
+            
+           
+            @include sp {
+                display: none;
+
+            }
+        }
+
+        .c-column__banner--sp {
+            display: none;
+            max-height: 251px;
+            @include sp {
+                display: block;
+               
+            }
+        }
+
+        .c-column__banner--text {
+            text-align: center;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-51.7%, -41%);
+            @include sp {
+                top: 29%;
+                width: 100%;
+            }
+
+            .c-column__banner--cap {
+                font-size: 2rem;
+                letter-spacing: 0;
+                @include tab {
+                    font-size: 1.7rem;
+                }
+                @include sp {
+                    font-size: 1.4rem;
+                    margin-bottom: 12px;
+                }
+            }
+
+            .c-column__banner--title {
+                transform: translate(8px, -8px);
+                font-size: 4.5rem;
+                font-weight: 400;
+                letter-spacing: 4.5px;
+                @include tab {
+                    font-size: 3rem;
+                }
+                @include sp {
+                    font-size: 2rem;
+                    letter-spacing: 2.25px;
+                    transform: translate(5px, -9px);
+                }
+            }
+        }
+    }
+
+    .c-column__banner--bot {
+       
+        @include sp {
+            margin-top: 26px;
+            transform: translateY(-1.5px);
+        }
+    }
+
+    .c-column__content {
+        padding: 51px 105px 64px;
+        @include sp {
+            padding: 51px 85px 65px;
+        }
+
+        @include tab {
+            padding-left: 15px;
+            padding-right: 15px;
+        }
+        @include sp {
+            padding: 0;
+            padding-top: 78px;
+        }
+
+        .c-box {
+            .c-box__item {
+                padding-bottom: 30.1px;
+
+                border-bottom: 1px solid #176b6a;
+                margin-bottom: 34.8px;
+                @include sp {
+                    border-bottom: none;
+                    margin-bottom: 34px;
+                    padding-bottom: 0;
+                }
+
+                .c-box__topContent {
+                    margin-bottom: 1.1px;
+                    transform: translateY(0);
+                    @include sp {
+                        transform: translateY(-3px);
+                        flex-wrap: nowrap;
+                    }
+
+                    .c-box__topImg {
+                        width: 33%;
+                        @include sp {
+                            width: 25%;
+                            margin-right: 7px;
+                        }
+
+                        .c-box__imgPc {
+                            @include sp {
+                                display: none;
+                            }
+                        }
+
+                        .c-box__imgSp {
+                            display: none;
+                            @include sp {
+                                display: block;
+                            }
+                        }
+                    }
+
+                    .c-box__topText {
+                        padding: 15px 0 0 5px;
+                        width: 67%;
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: center;
+                        @include sp {
+                            padding: 0;
+                            margin-top: -2px;
+                            width: 72.7%;
+                        }
+
+                        .c-box__desc {
+                            letter-spacing: 1.3px;
+
+                            line-height: 1.14;
+                            transform: translateY(1px);
+                            @include sp {
+                                font-size: 1.1rem;
+                                transform: translateY(0);
+                            }
+                        }
+
+                        .c-box__title {
+                            font-size: 2.5rem;
+                            font-weight: 400;
+                            color: #333;
+                            letter-spacing: 2.6px;
+                            @include sp {
+                                font-size: 1.5rem;
+                                letter-spacing: 1.5px;
+                                padding-left: 3px;
+                                padding-top: 5px;
+                                line-height: 1.7;
+                                margin-bottom: 0;
+                            }
+                        }
+                    }
+                }
+
+                .c-box__icon {
+                    position: absolute;
+                    top: -15.2%;
+                    right: -5.3%;
+
+                    @include sp {
+                        display: none;
+                    }
+                }
+
+                .c-collapse--btn {
+                    display: none;
+                    @include sp {
+                        display: block;
+                        margin-top: 18px;
+                    }
+
+                    div {
+                        width: 100%;
+                        height: 20px;
+                        border-radius: 8px;
+                        background-color: #176b6a;
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                    }
+                }
+
+                .c-box__botContent {
+                    width: 95%;
+                    position: relative;
+                    transition: all 0.7s;
+
+                    @include sp {
+                        width: 100%;
+                        height: 0;
+                        overflow: hidden;
+                        gap: 0;
+                    }
+
+                    .c-box__botDesc {
+                        transform: translateY(-2px);
+                        font-size: 1.4rem;
+                        font-weight: 400;
+                        letter-spacing: 1.4px;
+                      
+                        @include sp {
+                            margin-bottom: 30px;
+                            font-size: 1.3rem;
+                            letter-spacing: 1.3px;
+                            line-height: 1.68;
+                            margin-top: -13px;
+                            transform: translateY(-2px);
+                            padding-top: 19px;
+                        }
+                        @media only screen and (max-width:340px) {
+                            margin-top: 0;
+                            padding-top: 10px;
+                        }
+                    }
+
+                    .c-box__infoBtn {
+                        display: none;
+                        color: #176b6a;
+                        position: absolute;
+                        right: 0;
+                        bottom: 0;
+                        font-size: 1.3rem;
+                        font-family: "Kozuka Gothic Pr6N";
+
+                        &::before {
+                            content: "";
+                            width: 100%;
+                            height: 1px;
+                            background-color: #176b6a;
+                            position: absolute;
+                            bottom: 0;
+                            left: 0;
+                        }
+
+                        @include sp {
+                            display: inline-block;
+                        }
+                    }
+                }
+            }
+            @include sp {
+                .c-box__item:not(:first-of-type) {
+                    .c-box__topContent {
+                        transform: translateY(6px);
+                    }
+
+                    .c-box__botDesc {
+                        margin-top: 0;
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,461 @@
+<%- include('_layouts/layout', { title: 'MENTHA OIL' }); -%>
+
+   <!-- @meta -->
+   <meta name="description" content="Home page">
+   <!-- @@meta -->
+
+   <!-- @content -->
+   <main class="p-main">
+
+      <section class="c-mainvisual " id="mainvisual">
+         <div class="c-snow">
+            <% if(typeof snow !='undefined' ){%>
+               <% snow.content.forEach(item=>{%>
+                  <img class="c-snowItem c-snowItem--<%= item.number %>" src="<%= item.imgUrl %>" alt="snow">
+                  <% })%>
+                     <% }%>
+
+         </div>
+         <div class="c-mainvisual__content">
+            <div class="c-mainvisual__img">
+               <img class="c-mainvisual__img--pc" src=" /assets/img/MainVisual/menthaOil.jpg" alt="menthaOil">
+               <img class="c-mainvisual__img--sp" src=" /assets/img/MainVisual/menthaOilSP.png" alt="menthaOil">
+            </div>
+            <div class="c-mainvisual__description">
+               <p class="c-mainvisual__caption1">健栄製薬の</p>
+               <h1 class="c-mainvisual__title1">健栄製薬のハッカ油</h1>
+               <img class="c-mainvisual__textImg" src="/assets/img/MainVisual/title-heading.png" alt="ハッカ油">
+               <span class="u-bar"></span>
+               <p class="c-mainvisual__caption2">MENTHA OIL</p>
+               <p class="c-mainvisual__caption3">ハッカ油は、毎日の暮らしを豊かにする</p>
+               <h2 class="c-mainvisual__title2">魔法のしずく</h2>
+               <a href="#" class="c-mainvisual__btn c-btnRounded u-btnGreen1 ">
+                  <p class="c-mainvisual__btnText">ハッカ？ミント？</p>
+               </a>
+            </div>
+         </div>
+      </section>
+      <section class="c-case" id="case">
+         <div class="c-case__content l-container">
+            <div class="c-case__titleContent">
+               <p class="c-case__caption">使い方いろいろ</p>
+               <h2 class="c-case__title">毎日にハッカ油</h2>
+            </div>
+            <div class="c-case__pc">
+               <div class="c-case__product">
+                  <div class="c-case__product1">
+                     <a href="#" class="c-case__item c-case__bottle u-contentStart">
+                        <div class="c-case__img ">
+                           <span class="c-dailyUse"></span>
+                           <img src="/assets/img/Case/Bottle.png" alt="ハッカ水">
+                        </div>
+                        <p class="c-case__text">ハッカ水</p>
+
+
+                     </a>
+                     <a href="#" class="c-case__item c-case__aerosol u-contentEnd">
+                        <div class="c-case__img ">
+
+                           <img src="/assets/img/Case/aerosol.png" alt="ハッカの虫除けスプレー">
+                        </div>
+
+                        <div class="c-case__description">
+                           <p class="c-case__text">ハッカの虫除けスプレー</p>
+                        </div>
+
+                     </a>
+                     <a href="#" class="c-case__item c-case__iron u-contentStart">
+                        <div class="c-case__img">
+
+                           <img src="/assets/img/Case/iron.png" alt="ハッカのリネンウォーター">
+                        </div>
+
+
+                        <p class="c-case__text">ハッカのリネンウォーター</p>
+
+
+                     </a>
+                     <a href="#" class="c-case__item c-case__spray u-contentEnd">
+                        <div class="c-case__img">
+                           <span class="c-dailyUse"></span>
+                           <img src="/assets/img/Case/sprayWater.png" alt="ハッカのエアフレッシュナー">
+                        </div>
+
+
+                        <p class="c-case__text">ハッカのエアフレッシュナー</p>
+
+
+                     </a>
+                  </div>
+                  <div class="c-case__product2">
+                     <a href="#" class="c-case__item c-case__lightbuld u-contentStart">
+                        <div class="c-case__img ">
+
+                           <img src="/assets/img/Case/lightBuld.png" alt="ハッカの清涼スプレー">
+                        </div>
+
+
+                        <p class="c-case__text">ハッカの清涼スプレー</p>
+
+
+                     </a>
+                     <a href="#" class="c-case__item c-case__mask u-contentEnd">
+                        <div class="c-case__img ">
+                           <span class="c-recommened"></span>
+                           <img src="/assets/img/Case/mask.png" alt="ハッカマスク">
+                        </div>
+
+
+                        <p class="c-case__text">ハッカマスク</p>
+
+
+                     </a>
+                     <a href="#" class="c-case__item c-case__pillow u-contentStart">
+
+                        <p class="c-case__text">ハッカで安息</p>
+
+                        <div class="c-case__img">
+                           <img src="/assets/img/Case/pillow.png" alt="ハッカで安息">
+                        </div>
+
+
+
+                     </a>
+                     <a href="#" class="c-case__item c-case__bath u-contentEnd">
+
+                        <p class="c-case__text">ハッカの入浴剤</p>
+
+                        <div class="c-case__img">
+
+                           <img src="/assets/img/Case/bath.png" alt="ハッカの入浴剤">
+                        </div>
+
+
+
+                     </a>
+                  </div>
+               </div>
+            </div>
+            <div class="c-case__sp">
+               <div class="c-case__product">
+                  <div class="c-case__product1">
+                     <a href="#" class="c-case__item c-case__bottle u-contentStart">
+                        <div class="c-case__img ">
+                           <span class="c-dailyUse"></span>
+                           <img src="/assets/img/Case/BottleSP.png" alt="ハッカ水">
+                        </div>
+
+                        <div class="c-case__description">
+                           <p class="c-case__text">ハッカ水</p>
+                        </div>
+
+                     </a>
+                     <a href="#" class="c-case__item c-case__aerosol u-contentEnd">
+
+
+                        <div class="c-case__description">
+                           <p class="c-case__text">ハッカの虫除けスプレー</p>
+                        </div>
+                        <div class="c-case__img ">
+
+                           <img src="/assets/img/Case/aerosolSP.png" alt="ハッカの虫除けスプレー">
+                        </div>
+                     </a>
+                     <a href="#" class="c-case__item c-case__iron u-contentStart">
+                        <div class="c-case__img">
+
+                           <img src="/assets/img/Case/ironSP.png" alt="ハッカのリネンウォーター">
+                        </div>
+
+                        <div class="c-case__description">
+                           <p class="c-case__text">ハッカのリネンウォーター</p>
+                        </div>
+
+                     </a>
+                     <a href="#" class="c-case__item c-case__spray u-contentEnd">
+
+
+                        <div class="c-case__description">
+                           <p class="c-case__text">ハッカのエアフレッシュナー</p>
+                        </div>
+                        <div class="c-case__img">
+                           <span class="c-dailyUse"></span>
+                           <img src="/assets/img/Case/sprayWaterSP.png" alt="ハッカのエアフレッシュナー">
+                        </div>
+                     </a>
+                  </div>
+                  <div class="c-case__product2">
+                     <a href="#" class="c-case__item c-case__lightbuld u-contentStart">
+                        <div class="c-case__img ">
+
+                           <img src="/assets/img/Case/lightBuldSP.png" alt="ハッカの清涼スプレー">
+                        </div>
+
+                        <div class="c-case__description">
+                           <p class="c-case__text">ハッカの清涼スプレー</p>
+                        </div>
+
+                     </a>
+                     <a href="#" class="c-case__item c-case__mask u-contentEnd">
+
+
+                        <div class="c-case__description">
+                           <p class="c-case__text">ハッカマスク</p>
+                        </div>
+                        <div class="c-case__img ">
+                           <span class="c-recommened"></span>
+                           <img src="/assets/img/Case/maskSP.png" alt="ハッカマスク">
+                        </div>
+                     </a>
+                     <a href="#" class="c-case__item c-case__pillow u-contentStart">
+                        <div class="c-case__img">
+                           <img src="/assets/img/Case/pillowSP.png" alt="ハッカで安息">
+                        </div>
+                        <div class="c-case__description">
+                           <p class="c-case__text">ハッカで安息</p>
+                        </div>
+
+
+
+
+                     </a>
+                     <a href="#" class="c-case__item c-case__bath u-contentEnd">
+                        <div class="c-case__description">
+                           <p class="c-case__text">ハッカの入浴剤</p>
+                        </div>
+                        <div class="c-case__img">
+
+                           <img src="/assets/img/Case/bathSP.png" alt="ハッカの入浴剤">
+                        </div>
+
+
+
+                     </a>
+                  </div>
+               </div>
+            </div>
+         </div>
+
+      </section>
+
+      <section class="container--yellow" id="point">
+         <div class="c-point l-container--fluid">
+            <div class="c-box c-box--1col">
+               <% if(typeof point !='undefined' ){ %>
+                  <% point.content.forEach(item=>{ %>
+                     <div class="c-box__item">
+                        <div class="c-box__topContent">
+                           <div class="c-box__topImg">
+                              <img class="pc--only" src="<%= item.topNumberImgUrl %>" alt="<%= item.topNumberImgAlt %>">
+                              <img class="sp--only" src="<%= item.topNumberImgSPUrl %>"
+                                 alt="<%= item.topNumberImgAlt %>">
+                              <span class="u-bar"></span>
+                              <p class="c-point__tag"> POINT</p>
+                           </div>
+                           <div class="c-box__topText">
+                              <h2 class="c-box__title">
+                                 <%= item.topTitle %>
+                              </h2>
+                              <p class="c-box__desc c-box__desc--1 pc--only">
+                                 <%= item.topdesc1 %>
+                              </p>
+                              <p class="c-box__desc c-box__desc--2 pc--only">
+                                 <%= item.topdesc2 %>
+                              </p>
+
+                           </div>
+                           <p class="c-box__desc sp--only">
+                              <%= item.topDesc %>
+
+                           </p>
+                        </div>
+                        <div class="c-box__botContent">
+                           <% if(typeof item.bottom !='undefined' ){ %>
+                              <% item.bottom.forEach(bottom=>{%>
+                                 <div class="c-box__botItem">
+                                    <div class="c-box__layout">
+                                       <picture>
+                                          <source srcset="<%= bottom.imgSPUrl %>" media="(max-width: 767px)">
+                                          <img class="c-box__layoutIMG" src="<%=bottom.imgUrl  %>"
+                                             alt="<%=bottom.title %>">
+                                       </picture>
+
+                                       <div class="c-box__btnMore">
+                                          <img src="/assets/img/Point/btn_more.png" alt="btnMore">
+                                       </div>
+                                    </div>
+                                    <div class="c-box__overlay">
+                                       <div class="c-box__overlay--main">
+                                          <div class="c-box__overlay--content">
+
+                                             <h3 class="c-box__overlay--title">
+                                                <%=bottom.title %>
+                                             </h3>
+                                             <span class="u-bar"></span>
+                                             <h4 class="c-box__overlay--desc">
+                                                <%=bottom.desc %>
+                                             </h4>
+                                             <a href="#" class="c-box__overlay--btn">
+                                                <%=bottom.btnText %>
+                                             </a>
+
+                                          </div>
+                                       </div>
+                                    </div>
+                                 </div>
+                                 <% }) %>
+                                    <% }%>
+
+
+                        </div>
+                     </div>
+                     <% }) %>
+                        <% }%>
+
+
+            </div>
+         </div>
+         <div class="c-contact l-container--1100 ">
+            <h2 class="c-contact__title pc--only">
+               お買い求めは全国のドラッグストア、またはこちらから
+            </h2>
+            <h2 class="c-contact__title sp--only">
+               お買い求めは全国のドラッグストア 、またはこちらから
+            </h2>
+            <div class="c-box c-box--4col">
+               <a target="_blank" href="#" class="c-box__item">
+                  <img class="brand" src="/assets/img/contact/amazon.png" alt="amazon">
+
+
+               </a>
+               <a target="_blank" href="#" class="c-box__item">
+                  <img class="brand" src="/assets/img/contact/kenko.png" alt="kenko">
+
+               </a>
+               <a target="_blank" href="#" class="c-box__item">
+                  <img class="brand" src="/assets/img/contact/lohaco.png" alt="lohaco">
+
+               </a>
+               <a target="_blank" href="#" class="c-box__item">
+                  <img class="brand" src="/assets/img/contact/doraggu.png" alt="doraggu">
+
+
+               </a>
+            </div>
+            <h3 class="c-contact__caption pc--only">Amazon、Amazon.co.jp、及びAmazon.co.jpロゴはAmazon.com, Inc.又はその関連会社の商標です。
+            </h3>
+            <h3 class="c-contact__caption sp--only">Amazon、Amazon.co.jp、及びAmazon.co.-jpロゴはAmazon.com, Inc.又はその関連会社の商標です。
+            </h3>
+         </div>
+
+
+      </section>
+
+      <section class="c-QA" id="QA">
+         <div class=" l-container--fluid">
+            <div class="c-QA__content ">
+               <h2 class="c-QA__title">Q&A</h2>
+               <div class="c-box c-box--1col">
+                  <% if(typeof QA !='undefined' ){ %>
+                     <% QA.content.forEach(item=>{%>
+                        <dl class="c-box__item">
+                           <dt class="c-box__topContent">
+                              <div class="c-box__topImg">
+                                 <img src="<%= item.imgUrl %>" alt="<%= item.title %>">
+
+                              </div>
+                              <div class="c-box__topText">
+                                 <p class="c-box__title">
+                                    <%= item.title %>
+                                 </p>
+                              </div>
+                           </dt>
+                           <dd class="c-box__botContent">
+                              <h3 class="c-box__botDesc">
+                                 <%= item.desc %>
+                              </h3>
+                           </dd>
+                        </dl>
+                        <% }) %>
+                           <% } %>
+
+
+               </div>
+            </div>
+         </div>
+      </section>
+
+      <section class="c-column" id="column">
+         <div class="c-column__main l-container--fluid">
+            <div class="c-column__banner">
+               <div class="c-column__banner--img">
+                  <img class="c-column__banner--pc" src="/assets/img/column/banner.png" alt="「ハッカ油コラム」へ">
+                  <img class="c-column__banner--sp" src="/assets/img/column/bannerTop.png" alt="「ハッカ油コラム」へ">
+               </div>
+               <div class="c-column__banner--text">
+                  <p class="c-column__banner--cap">
+                     日々の暮らしにお役立ち
+                  </p>
+                  <h2 class="c-column__banner--title">「ハッカ油コラム」へ</h2>
+               </div>
+            </div>
+            <div class="c-column__content">
+               <div class="c-box c-box--1col">
+                  <% if(typeof column !='undefined' ){ %>
+                     <% column.content.forEach(item=>{%>
+                        <div class="c-box__item">
+                           <a href="#" class="c-box__topContent">
+                              <div class="c-box__topImg">
+                                 <picture>
+                                    <source srcset="<%= item.imgSPUrl %>" media="(max-width: 767px)">
+                                    <img class="c-column__img" src="<%= item.imgUrl %>" alt="<%= item.title %>">
+                                 </picture>
+
+                              </div>
+                              <div class="c-box__topText">
+                                 <p class="c-box__desc">
+                                    <%= item.topDesc %>
+                                 </p>
+                                 <h3 class="c-box__title">
+                                    <%= item.title %>
+                                 </h3>
+                              </div>
+                           </a>
+
+                           <div class="c-box__botContent">
+                              <a href="#"><img class="c-box__icon" src="/assets/img/column/rightangle.png"
+                                    alt="icon"></a>
+                              <h4 class="c-box__botDesc">
+                                 <%= item.botDesc %>
+                              </h4>
+                              <a class="c-box__infoBtn" href="#">詳しく見る</a>
+                           </div>
+                           <div class="c-collapse--btn">
+                              <div>
+                                 <img class="" src="/assets/img/column/CollapseDown.png" alt="CollapseDown">
+                              </div>
+                           </div>
+                        </div>
+                        <% })%>
+                           <% }%>
+
+
+               </div>
+            </div>
+            <div class="c-column__banner c-column__banner--bot">
+               <div class="c-column__banner--img">
+                  <img class="c-column__banner--pc" src="/assets/img/column/banner2.png" alt="建栄生活">
+                  <img class="c-column__banner--sp" src="/assets/img/column/bannerBot.png" alt="建栄生活">
+               </div>
+            </div>
+         </div>
+      </section>
+
+   </main>
+   <!-- @@content -->
+
+   <!-- @script -->
+   <script>
+
+   </script>
+   <!-- @@script -->

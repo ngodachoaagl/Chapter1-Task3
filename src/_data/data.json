@@ -1,0 +1,268 @@
+{
+  "navlists": {
+    "main": [
+      {
+        "title": "トップ",
+        "url": "mainvisual"
+      },
+      {
+        "title": "毎日にハッカ油",
+        "url": "case"
+      },
+      {
+        "title": "製品情報",
+        "url": "point"
+      },
+      {
+        "title": "Q&A",
+        "url": "QA"
+      },
+      {
+        "title": "ハッカ油コラム",
+        "url": "column"
+      },
+      {
+        "title": "ハッカ油ムービー",
+        "url": "footer"
+      }
+    ]
+  },
+  "point": {
+    "content": [
+      {
+        "topNumberImgUrl": "/assets/img/Point/number1.png",
+        "topNumberImgSPUrl": "/assets/img/Point/number1SP.png",
+        "topNumberImgAlt": "point1",
+        "topTitle": "気持ちリフレッシュ",
+        "topDesc": "鼻や口から入った香りの信号は、視床下部などに直接作用し気分をリフレッシュさせてくれます。",
+        "topdesc1": "鼻や口から入った香りの信号は、視床下部などに直接作用し",
+        "topdesc2": "気分をリフレッシュさせてくれます。",
+        "bottom": [
+          {
+            "imgUrl": "/assets/img/Point/point1-1.jpg",
+              "imgSPUrl": "/assets/img/Point/point1-1SP.png",
+            "title": "部屋干しも安心",
+            "desc": "湿気の多い梅雨の季節の部屋干しにはハッカ油が大活躍 優しい自然な香りですっきりさわやか。",
+            "btnText": "ハッカ油コラムへ"
+          },
+          {
+            "imgUrl": "/assets/img/Point/point1-2.jpg",
+            "imgSPUrl": "/assets/img/Point/point1-2.jpg",
+            "title": "気分転換に",
+            "desc": "集中力が低下してきたときはハッカ油でリフレッシュ。気分もすっきり眠気覚ましに最適です。",
+            "btnText": "ハッカ油コラムへ"
+          },
+          {
+            "imgUrl": "/assets/img/Point/point1-3.jpg",
+            "imgSPUrl": "/assets/img/Point/point1-3.jpg",
+            "title": "外出のお供に",
+            "desc": "遠足やピクニックで思いっきり遊んでも、ハッカ油のおしぼりをサッと取り出していつでも清潔。",
+            "btnText": "ハッカ油コラムへ"
+          }
+        ]
+      },
+      {
+        "topNumberImgUrl": "/assets/img/Point/number2.png",
+        "topNumberImgSPUrl": "/assets/img/Point/number2SP.png",
+        "topNumberImgAlt": "point2",
+        "topTitle": "気持ちリフレッシュ",
+        "topDesc": "メントールの刺激ですっきりクールダウン。ミントの香りで気分も爽快！",
+        "topdesc1": "メントールの刺激ですっきりクールダウン。",
+        "topdesc2": "ミントの香りで気分も爽快！",
+        "bottom": [
+          {
+            "imgUrl": "/assets/img/Point/point2-1.jpg",
+              "imgSPUrl": "/assets/img/Point/point2-1SP.png",
+            "title": "スッと冷却",
+            "desc": "暑くて体に熱がこもりがちな暑い季節はハッカ油でクールダウン。心地の良い涼しさを味わえます。",
+            "btnText": "ハッカ油コラムへ"
+          },
+          {
+            "imgUrl": "/assets/img/Point/point2-2.jpg",
+              "imgSPUrl": "/assets/img/Point/point2-2.jpg",
+            "title": "花粉の季節に",
+            "desc": "ハッカマスクでブルーな気分も吹き飛ばしてくれます。",
+            "btnText": "ハッカ油コラムへ"
+          },
+          {
+            "imgUrl": "/assets/img/Point/point2-3.jpg",
+              "imgSPUrl": "/assets/img/Point/point2-3.jpg",
+            "title": "足湯に",
+            "desc": "ひんやり爽快。ハッカ油で寝苦しい夜もすっきり。さわやかな香りで気分もリフレッシュ。",
+            "btnText": "ハッカ油コラムへ"
+          }
+        ]
+      },
+      {
+        "topNumberImgUrl": "/assets/img/Point/number3.png",
+        "topNumberImgSPUrl": "/assets/img/Point/number3SP.png",
+        "topNumberImgAlt": "point3",
+        "topTitle": "ハウスキーピング",
+        "topDesc": "ハッカ油に含まれるメントールは、お部屋のスッキリを演出。お家の害虫対策にもおすすめです。",
+        "topdesc1": "ハッカ油に含まれるメントールは、お部屋のスッキリを演出。",
+        "topdesc2": "お家の害虫対策にもおすすめです。",
+        "bottom": [
+          {
+            "imgUrl": "/assets/img/Point/point3-1.jpg",
+              "imgSPUrl": "/assets/img/Point/point3-1SP.png",
+            "title": "嫌な害虫を撃退",
+            "desc": "キッチンなどに現れる嫌な害虫はハッカ油がシャットアウト！ 清涼感あふれる香りでお部屋を守ります。",
+            "btnText": "ハッカ油コラムへ"
+          },
+          {
+            "imgUrl": "/assets/img/Point/point3-2.jpg",
+              "imgSPUrl": "/assets/img/Point/point3-2.jpg",
+            "title": "窓ガラスに",
+            "desc": "自然素材のハッカ油で手肌にも優しくハウスキーピング。手軽に作れるガラスクリーナーでピカピカに。",
+            "btnText": "ハッカ油コラムへ"
+          },
+          {
+            "imgUrl": "/assets/img/Point/point3-3.jpg",
+            "imgSPUrl": "/assets/img/Point/point3-3.jpg",
+            "title": "シューピローに",
+            "desc": "お部屋の悪臭にはハッカ油が迎え撃ち！ 嫌な匂いがこもりがちな靴にハッカ油のシューピローを。",
+            "btnText": "ハッカ油コラムへ"
+          }
+        ]
+      }
+    ]
+  },
+  "QA": {
+    "content": [
+      {
+        "imgUrl": "/assets/img/QA/Qimage.png",
+        "title": "虫除け対策に直接体や環境に噴きかけても良いですか？",
+        "desc": "刺激が強過ぎる可能性がありますので、薄めて使用してください。また素材によっては変質(変色 )するおそれがありますので注意してください。"
+      },
+      {
+        "imgUrl": "/assets/img/QA/Qimage.png",
+        "title": "体に使用する際の注意点は？",
+        "desc": "刺激作用があるため、目や目の周囲、粘膜等に付着しないように注意してください。"
+      },
+      {
+        "imgUrl": "/assets/img/QA/Qimage.png",
+        "title": "ハッカ油アイテムを作る際に使用する量は紹介されている量を守らないといけませんか？",
+        "desc": "紹介している量はあくまでも目安になります。ただし、これ以上の量を加えると刺激が強過ぎる可能性があるので注意してください。"
+      },
+      {
+        "imgUrl": "/assets/img/QA/Qimage.png",
+        "title": "使用期限はどのくらいですか？",
+        "desc": "パッケージ裏面に賞味期限を記載しています。遮光して、涼しい所に保管してください。"
+      },
+      {
+        "imgUrl": "/assets/img/QA/Qimage.png",
+        "title": "ハッカ油は何からできたものですか？",
+        "desc": "ハッカ油とはハッカソウというミントを乾燥させて抽出した植物油のことです。"
+      }
+    ]
+  },
+  "column": {
+    "content": [
+      {
+        "imgUrl": "/assets/img/column/img_column11.png",
+        "imgSPUrl": "/assets/img/column/sp11.png",
+        "title": "風邪やインフルエンザシーズンにもハッカ油",
+        "topDesc": "風邪をひきやすい冬も安心",
+        "botDesc": "風邪をひきやすくなる冬、朝起きたら喉がガラガラなんていうことはありませんか？ 実はこれ、夜寝ている間にウイルスが体内で増殖してしまった証拠かもしれません。寒さと乾燥の厳しい冬の風邪は、夜寝ている間に悪化しやすいといわれています。そんな季節に役立つハッカ油の使い方をご紹介します。"
+      },
+      {
+        "imgUrl": "/assets/img/column/img_column10.png",
+        "imgSPUrl": "/assets/img/column/sp10.png",
+        "title": "ハッカ油を安全に使うためのルール",
+        "topDesc": "万能だからこそ知っておこう",
+        "botDesc": "防虫、消臭、除菌、リラックスなど、さまざまな効果が期待できるハッカ油は使えば使うほど万能で、生活のあらゆる場面で欠かせなくなってきます。しかし、だからこそ知っておきたいのがハッカ油を安全に使うためのルールです。ハッカ油ならではの性質に着目して、保管から具体的な使う上での注意点についてご紹介します。"
+      },
+      {
+        "imgUrl": "/assets/img/column/img_column9.png",
+        "imgSPUrl": "/assets/img/column/sp09.png",
+        "title": "ハッカ油の冷却パワーを上手に使おう",
+        "topDesc": "涼しいオアシスタイム",
+        "botDesc": "湯上りやスポーツの後など、熱のこもった体を手早くクールダウンしたい時もハッカ油の出番です。蒸発する際に周囲の熱を奪う性質があるので、さわやかな香りを放ちながらすっきりと冷却してくれます。いつでも手軽に使えるハッカ油の清涼スプレーの作り方を紹介しますので、まずは一本作ってみて、その効果をお試しあれ。"
+      },
+      {
+        "imgUrl": "/assets/img/column/img_column8.png",
+        "imgSPUrl": "/assets/img/column/sp08.png",
+        "title": "ハッカ油でリラックス&リフレッシュ",
+        "topDesc": "気分転換の強い味方",
+        "botDesc": "疲れているのに寝付けない、試験勉強がはかどらない、楽しみな旅行も乗り物酔いで台なし……。そんな時こそ、ハッカ油でリラックス＆リフレッシュ。ハッカ油のさわやかな香りは濃度によって効果が異なり、しっかり使えば気分転換に、量を控えれば気持ちを落ち着かせる作用があります。状況に応じてうまく使い分けましょう。"
+      },
+      {
+        "imgUrl": "/assets/img/column/img_column7.png",
+        "imgSPUrl": "/assets/img/column/sp07.png",
+        "title": "ハッカ油の消臭マジック！",
+        "topDesc": "嫌な匂いはサヨウナラ、ブーツや靴などに",
+        "botDesc": "ニオイ対策にも使用できるハッカ油は、お口の不快感対策の他、排水溝や下駄箱などで消臭剤としても活用できます。消臭スプレーや芳香剤の人工的な香りよりも、気持ち良く使える人が多いはず。体に優しいハッカ油の即席マウスケアや防臭シューピローを作って、ぜひ試してみてください。"
+      },
+      {
+        "imgUrl": "/assets/img/column/img_column6.png",
+        "imgSPUrl": "/assets/img/column/sp06.png",
+        "title": "衣類がハッカ油でよみがえる！？",
+        "topDesc": "香りと抗菌のダブルパワー",
+        "botDesc": "ハッカ油の香りと抗菌効果は、衣類の手入れや保管でも力を発揮。洗濯のすすぎ時に数滴混ぜれば部屋干しする際に雑菌の繁殖を抑えてくれるし、匂い袋にしてタンスに入れれば防虫効果も期待できます。身に付ける自分自身はもちろん、お会いする相手のためにも、ハッカ油を使って衣類を気持ちの良い状態に保ちましょう。"
+      },
+      {
+        "imgUrl": "/assets/img/column/img_column5.png",
+        "imgSPUrl": "/assets/img/column/sp05.png",
+        "title": "ハッカ油スプレーで携帯ハッカ油を始めよう",
+        "topDesc": "いつでもどこでもサッと使える",
+        "botDesc": "除菌・消臭効果が期待できるハッカ油は、手作りスプレーにして携帯すれば、いろいろなシーンで大活躍。車にこもった嫌な臭い、食事で衣服に付いたきつい匂いも、シュッと一噴きで簡単にリフレッシュ。自然素材だから、小さな子どもを抱っこするママも気持ちよく使えます。万能なハッカ油をしっかり活用してください。"
+      },
+      {
+        "imgUrl": "/assets/img/column/img_column4.png",
+        "imgSPUrl": "/assets/img/column/sp04.png",
+        "title": "ハッカ油は万能ハウスクリーナー",
+        "topDesc": "使わないなんてもったいない",
+        "botDesc": "自然素材を使って掃除したい人にもハッカ油はおすすめ。除菌・防カビ・消臭効果が期待でき、掃除や食器の手入れにも使えます。炭酸水や重曹に数滴混ぜるだけの簡単クリーナーで、家中ピカピカに磨き上げましょう！ 合成洗剤のように手荒れの心配もなく、何より、さわやかな香りが心地良いため面倒な掃除も頑張れそうです。"
+      },
+      {
+        "imgUrl": "/assets/img/column/img_column3.png",
+        "imgSPUrl": "/assets/img/column/sp03.png",
+        "title": "ハッカ油で楽しいバスタイム",
+        "topDesc": "おうちでサロン気分",
+        "botDesc": "バスタイムを満喫できるさまざまな入浴剤やバスソルトが市販されていますが、実はハッカ油を入浴剤として使ってもOK。湯上りがさっぱりとして、気分爽快！ またシャンプーやボディーソープに混ぜて使えば、汗でべたべたする頭皮や肌をすっきり引き締めてくれます。ジメジメする梅雨時期や、汗をかく夏場の入浴には特におすすめです。"
+      },
+      {
+        "imgUrl": "/assets/img/column/img_column2.png",
+        "imgSPUrl": "/assets/img/column/sp02.png",
+        "title": "ハッカ油で上手に生活管理！",
+        "topDesc": "マスクにシュッシュと一噴き",
+        "botDesc": "ハッカ油はマスクにシュッと一噴きすることで生活管理に役立てることができます。体調がすぐれず沈みがちな気分も、清涼感のある香りがリフレッシュしてくれます。ハッカ油を上手に使って、健やかな暮らしを叶えましょう。"
+      },
+      {
+        "imgUrl": "/assets/img/column/img_column1.png",
+        "imgSPUrl": "/assets/img/column/sp01.png",
+        "title": "さわやかハッカ油で虫除け対策！",
+        "topDesc": "害虫も怖くない",
+        "botDesc": "ハッカ油の清涼感ある香りは人間には心地良いですが、多くの害虫は大の苦手。この性質を利用して、安心安全な天然の虫除け剤を手作りしてみましょう。身体に直接湿布するのはもちろん、網戸にシュッと一噴きしたり、キッチンの水回りなどに液剤を染み込ませたコットンを置いたりと、さまざまな用途に使えます。"
+      }
+    ]
+  },
+  "snow": {
+    "content": [
+      {
+        "imgUrl": "/assets/img/animation/drop1.png",
+        "number": "1"
+      },
+      {
+        "imgUrl": "/assets/img/animation/drop2.png",
+        "number": "2"
+      },
+      {
+        "imgUrl": "/assets/img/animation/drop3.png",
+        "number": "3"
+      },
+      {
+        "imgUrl": "/assets/img/animation/drop4.png",
+        "number": "4"
+      },
+      {
+        "imgUrl": "/assets/img/animation/drop5.png",
+        "number": "5"
+      },
+      {
+        "imgUrl": "/assets/img/animation/drop6.png",
+        "number": "6"
+      }
+    ]
+  }
+}
